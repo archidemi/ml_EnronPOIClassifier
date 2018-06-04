@@ -84,3 +84,18 @@ I used 100-fold stratified split cross-validation when tuning the parameters for
 I focused on precision and recall scores when evaluating my algorithms. Mostly they both fall between 0.3 ~ 0.4.
 
 A good precision means, whenever a POI is flagged, it's highly possible that it's a real POI rather than a false alarm. A good recall means everytime a POI shows up, we're able to identify it.
+
+### References
+
+https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html
+https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.from_dict.html
+https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.astype.html
+https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.replace.html
+https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.drop.html
+https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.fillna.html
+http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html
+https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.select_dtypes.html
+https://docs.scipy.org/doc/numpy-1.13.0/reference/generated/numpy.ndarray.reshape.html#numpy.ndarray.reshape
+https://stackoverflow.com/questions/34842405/parameter-stratify-from-method-train-test-split-scikit-learn
+http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
+http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedShuffleSplit.html
